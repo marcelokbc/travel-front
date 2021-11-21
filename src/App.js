@@ -12,57 +12,69 @@ function App() {
   }
   useEffect(() => {fetchData()}, [])
   return (
-    <div className="App">
+<div className="App">
       <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+  <nav className="navbar navbar-expand-sm navbar-light">
+    <div className="container">
+      <a className="navbar-brand" href="#">
+        <img src="https://livedemo00.template-help.com/wt_60075_v2/images/logo-light-148x30.png" width="142"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <a className="nav-link" href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Sobre</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Tours</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Galeria</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Contato</a>
+          </li>
+          <li className="nav-item">
+            <a className="btn btn-outline-light ml-5" href="#">Entrar</a>
+          </li>
+        </ul>  
       </div>
-      <h1>Viagens disponíveis</h1>
-      {products.map((product)=>{
-        return(
-          <div className="">
-            <div>
-              <h1>{product.title}</h1>
-              <h2>{product.subtitle}</h2>
-            </div>
-          </div>
-        )
-      })}
     </div>
+  </nav>
+</div>
+  <section className="home">
+    <div className="container align-self-center">
+      <div className="row">
+        <div className="col-md-12">
+          <h1 className="text-white">Desfrute das suas férias do sonho</h1>
+          <p className="text-white">Viajar para qualquer canto do mundo, sem andar em círculos.</p>
+          <form className="registration-form">
+            <div className="form-group">
+              <input type="text" className="form-control item" id="destino" placeholder="Seu destino"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control item" id="chegada" placeholder="Chegada"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control item" id="saida" placeholder="Saída"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control item" id="preco" placeholder="Preço"/>
+            </div>
+            <div className="form-group">
+              <button type="button" className="btn btn-block search">Pesquisar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
   );
 }
 
