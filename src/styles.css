@@ -1,16 +1,29 @@
+/* Layout
+------------------------*/
+body {
+    background: url("https://livedemo00.template-help.com/wt_60075_v2/images/backgrounds/background-03-1920x900.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html,body, #home {
+    height: 100%;
+}
+
 /* Navbar
 ------------------------*/
 .navbar-nav{
     padding-left: 750px;
 }
 
-.navbar-expand-sm .navbar-nav .nav-link {
+.navbar-expand-md .navbar-nav .nav-link {
     color: white;
 }
 
-.navbar-expand-sm .navbar-nav .nav-link:hover {
+.navbar-expand-md .navbar-nav .nav-link:hover {
     text-decoration: underline;
-    color:dark;
+    color:orange;
 }
 
 .navbar-light .navbar-toggler {
@@ -22,9 +35,14 @@
     margin-left: 15px;
 }
 
-body {
-    background: url("https://livedemo00.template-help.com/wt_60075_v2/images/backgrounds/background-03-1920x900.jpg");
-    background-attachment: fixed;
+.capa {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.subtitle {
+    font-size: 20px;
 }
 
 /* Form
@@ -53,15 +71,97 @@ body {
     border: none;
     color: white;
     margin-top: 20px;
-
 }
 
-.home {
-    margin-top: 130px;
+/* Section 
+---------------------*/
+#servicos {
+    background: #f5f5f5;
+    fill: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
+.top {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 80px;
+}
 
-.products-flex {
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  .card-trip > img {
+    width: 370px;
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    text-align: initial;
+  }
+  
+  .card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+  }
+  
+  
+  .card-trip .card-trip-infos {
+    padding: 16px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
   }
+  
+  .card-trip-infos .card-trip-user {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

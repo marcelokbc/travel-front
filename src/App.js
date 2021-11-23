@@ -14,17 +14,17 @@ function App() {
   return (
 <div className="App">
       <div>
-  <nav className="navbar navbar-expand-sm navbar-light">
+  <nav className="navbar navbar-expand-md navbar-light">
     <div className="container">
       <a className="navbar-brand" href="#">
         <img src="https://livedemo00.template-help.com/wt_60075_v2/images/logo-light-148x30.png" width="142"/>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+        <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+          <li className="nav-item text-white">
             <a className="nav-link" href="#">Home</a>
           </li>
           <li className="nav-item">
@@ -47,12 +47,13 @@ function App() {
     </div>
   </nav>
 </div>
-  <section className="home">
+
+  <section id="home" className="d-flex">
     <div className="container align-self-center">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12 capa">
           <h1 className="text-white">Desfrute das suas férias do sonho</h1>
-          <p className="text-white">Viajar para qualquer canto do mundo, sem andar em círculos.</p>
+          <p className="text-white mb-3 subtitle">Viajar para qualquer canto do mundo, sem andar em círculos.</p>
           <form className="registration-form">
             <div className="form-group">
               <input type="text" className="form-control item" id="destino" placeholder="Seu destino"/>
@@ -74,6 +75,93 @@ function App() {
       </div>
     </div>
   </section>
+
+  <section id="servicos">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <h1 className="display-4">Melhores Ofertas</h1>
+          <p className="top">Selecionamos algumas ofertas</p>
+        </div>
+
+        <div className="cards">
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-01-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-02-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-03-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-04-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-05-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+
+          <div className="card-trip">
+              <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-06-370x310.jpg"/>
+            <div className="card-trip-infos">
+              <div>
+                <h2>Title here</h2>
+                <p>Shorte description here!</p>
+              </div>
+              <h2 className="card-trip-princing">£99.99</h2>
+              <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
 </div>
   );
 }
