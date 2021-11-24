@@ -28,7 +28,7 @@ function App() {
             <a className="nav-link" href="#">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Sobre</a>
+            <a className="nav-link" href="#about">Sobre</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Tours</a>
@@ -89,8 +89,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-01-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Turquiia</h2>
+                <p>Istambul,Antalya,Ephesus</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -101,8 +101,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-02-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Espanha</h2>
+                <p>Madrid,Andalucia,Barcelona</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -113,8 +113,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-03-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Reino Unido</h2>
+                <p>Inglaterra,Escocia,Wales</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -125,8 +125,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-04-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Leste da Europa</h2>
+                <p>Eslovênia,Hungria,Polônia</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -137,8 +137,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-05-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Itália</h2>
+                <p>Roma,Milão,Veneza</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -149,8 +149,8 @@ function App() {
               <img src="https://livedemo00.template-help.com/wt_60075_v2/images/offers/box-offer-06-370x310.jpg"/>
             <div className="card-trip-infos">
               <div>
-                <h2>Title here</h2>
-                <p>Shorte description here!</p>
+                <h2>Alpes Suiços</h2>
+                <p>Zurich,Geneva,Luzern</p>
               </div>
               <h2 className="card-trip-princing">£99.99</h2>
               <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
@@ -161,6 +161,95 @@ function App() {
       </div>
     </div>
   </section>
+
+  <section id="about">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <h1 className="text-white space">Por quê escolher a travel</h1>
+        </div>
+        <div className="row row-30 row-sm justify-content-sm-center justify-content-lg-start text-sm-left">
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                      <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                          <div className="unit-body">
+                            <p className="text-small text-black text-uppercase text-ubold">Pesquisa Personalizada</p>
+                            <p className="text-small text-silver-chalice">O nosso sistema de pesquisa ajuda-o a encontrar uma visita personalizada em apenas alguns cliques. </p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                    <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                      <div className="unit-body">
+                        <p className="text-small text-black text-uppercase text-ubold">Grande Variedade de destinos</p>
+                        <p className="text-small text-silver-chalice">Com a Travel, encontrará um destino perfeito entre as centenas disponíveis.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                    <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                      <div className="unit-body">
+                        <p className="text-small text-black text-uppercase text-ubold">Serviço Altamente qualificado</p>
+                        <p className="text-small text-silver-chalice">O nosso elevado nível de serviço é oficialmente reconhecido por milhares de clientes.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                    <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                      <div className="unit-body">
+                        <p className="text-small text-black text-uppercase text-ubold">Suporte 24/7</p>
+                        <p className="text-small text-silver-chalice">Os nossos agentes de viagens estão sempre presentes para apoiar durante a sua viagem.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                    <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                      <div className="unit-body">
+                        <p className="text-small text-black text-uppercase text-ubold">Hotéis escolhidos a dedo</p>
+                        <p className="text-small text-silver-chalice">Escolheremos os hotéis com a máxima reputação e as críticas positivas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4">
+                  <div className="box box-sm bg-default d-block">
+                    <div className="unit flex-column flex-sm-row unit-spacing-sm">
+                      <div className="unit-body">
+                        <p className="text-small text-black text-uppercase text-ubold">Melhor garantia de preço</p>
+                        <p className="text-small text-silver-chalice">Garantimos-lhe um conforto de primeira a um preço acessível.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer className="mt-5">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <img src="https://livedemo00.template-help.com/wt_60075_v2/images/logo-dark-148x30.png" width="142"/>
+          <p className="section-footer">Desde 2021 que oferecemos serviços de viagem da mais alta qualidade, combinando a nossa energia e entusiasmo.</p>
+        </div>
+        <div className="col-md-4">
+          Contatos
+        </div>
+        <div className="col-md-4">
+         Redes socias
+        </div>
+      </div>
+    </div>
+  </footer>
   
 </div>
   );

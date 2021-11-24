@@ -79,7 +79,7 @@ html,body, #home {
     background: #f5f5f5;
     fill: #f5f5f5;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .top {
@@ -164,4 +164,102 @@ html,body, #home {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+/*About
+---------------------------*/
+.space {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.row-30 {
+    margin-bottom: 130px;
+}
+
+.row-sm {
+    margin-top: 30px;
+}
+
+.page .bg-default {
+    background: #fff;
+    fill: #fff;
+}
+
+.page .text-black {
+    color: #000;
+}
+
+.page .text-silver-chalice {
+    color: #aaa;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-small {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.text-ubold {
+    font-weight: 900;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.box-sm {
+    box-shadow: 1px 10px 0 rgba(0 0 0 / 10%);
+}
+
+.box {
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+    will-change: content;
+    transition: .3s all ease;
+}
+
+.unit-spacing-sm.unit > * {
+    margin-bottom: 12px;
+    margin-left: 22px;
+}
+
+.unit {
+    text-align: left;
+    display: flex;
+    flex: 0 1 100%;
+}
+
+.unit-left, .unit-right {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.unit-body {
+    flex: 0 1 auto;
+}
+
+.flex-collumn {
+    flex-direction: column !important;
+}
+
+/* Footer
+---------------------------*/
+footer {
+    background: #fff;
+    fill: #f5f5f5;
+    padding: 50px 0 20px 0;
+}
+
+.section-footer {
+    padding-bottom: 15px;
+    padding-top: 80px;
+    text-align: left !important;
 }
