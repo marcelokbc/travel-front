@@ -208,10 +208,6 @@ html,body, #home {
     font-weight: 900;
 }
 
-.text-small {
-    font-size: 14px;
-}
-
 .box-sm {
     box-shadow: 1px 10px 0 rgba(0 0 0 / 10%);
 }
@@ -258,8 +254,29 @@ footer {
     padding: 50px 0 20px 0;
 }
 
-.section-footer {
-    padding-bottom: 15px;
-    padding-top: 80px;
-    text-align: left !important;
+footer h4 {
+    color: #919496;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+footer .style-footer {
+    list-style: none;
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer .style-footer a {
+    color: #111;
+    font-size: 1em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
 }
