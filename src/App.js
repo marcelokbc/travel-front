@@ -28,7 +28,7 @@ function App() {
             <a className="nav-link" href="#">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#about">Sobre</a>
+            <a className="nav-link" href="#">Sobre</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Tours</a>
@@ -162,7 +162,7 @@ function App() {
     </div>
   </section>
 
-  <section id="about">
+  <section>
     <div className="container">
       <div className="row">
         <div className="col-md-12">
@@ -237,16 +237,40 @@ function App() {
   <footer className="mt-5">
     <div className="container">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-2">
           <img src="https://livedemo00.template-help.com/wt_60075_v2/images/logo-dark-148x30.png" width="142"/>
-          <p className="section-footer">Desde 2021 que oferecemos serviços de viagem da mais alta qualidade, combinando a nossa energia e entusiasmo.</p>
         </div>
-        <div className="col-md-4">
-          Contatos
-        </div>
-        <div className="col-md-4">
-         Redes socias
-        </div>
+          <div className="col-md-2">
+            <h4>Contatos</h4>
+            <ul className="style-footer">
+              <li><a href="#"></a>Endereço</li>
+              <li><a href="#"></a>Telefone</li>
+              <li><a href="#"></a>E-mail</li>
+            </ul>
+          </div>
+          <div className="col-md-2">
+            <h4>Links Utéis</h4>
+              <ul className="style-footer">
+                <li><a href="#"></a>Imprensa</li>
+                <li><a href="#"></a>Ajuda</li>
+                <li><a href="#"></a>Anúncio</li>
+              </ul>
+          </div>
+
+          <div className="col-md-4">
+            <h4>Siga-Nos</h4>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-square fa-4x"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter-square fa-4x"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+                </li>
+              </ul>
+          </div>
       </div>
     </div>
   </footer>
