@@ -243,23 +243,23 @@ function App() {
           <div className="col-md-2">
             <h4>Contatos</h4>
             <ul className="style-footer">
-              <li><a href="#"></a>Endereço</li>
-              <li><a href="#"></a>Telefone</li>
-              <li><a href="#"></a>E-mail</li>
+              <li className="align-left"><a href="#">Endereço</a></li>
+              <li><a href="#">Telefone</a></li>
+              <li><a href="#">E-mail</a></li>
             </ul>
           </div>
           <div className="col-md-2">
             <h4>Links Utéis</h4>
               <ul className="style-footer">
-                <li><a href="#"></a>Imprensa</li>
-                <li><a href="#"></a>Ajuda</li>
-                <li><a href="#"></a>Anúncio</li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Anúncio</a></li>
               </ul>
           </div>
 
           <div className="col-md-4">
             <h4>Siga-Nos</h4>
-              <ul>
+              <ul className="style-footer">
                 <li>
                   <a href="#"><i class="fab fa-facebook-square fa-4x"></i></a>
                 </li>
